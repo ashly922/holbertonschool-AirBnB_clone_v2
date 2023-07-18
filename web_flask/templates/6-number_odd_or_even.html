@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HBNB</title>
+    </head>
+    <body>
+        <h1 id="result"></h1>
+
+        <script>
+            var urlParams = new URLSearchParams(window.location.search);
+            var n = parseInt(urlParams.get('n'));
+
+            if (!isNaN(n)) {
+                var result = document.getElementById('result');
+
+                if (n % 2 == 0) {
+                    result.innerHTML = "Number: " + n + " is even";
+                } else {
+                    result.innerHTML = "Number: " + n + " is odd";
+                }
+            }
+        </script>
+    </body>
+</html>
