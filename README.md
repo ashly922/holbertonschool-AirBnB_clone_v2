@@ -1,1 +1,1 @@
-# holbertonschool-AirBnB_clone_v2
+This repository contains the html 5 portion of the whole air bnb project.
