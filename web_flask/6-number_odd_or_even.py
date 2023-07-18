@@ -49,7 +49,7 @@ def number_template(n):
     '''routes to html page'''
     if isinstance(n, int):
         return render_template('5-number.html', number=n)
-    
+
 
 @app.route('/number_odd_or_even/<int:n>', strict_slashes=False)
 def even_or_odd(n):
