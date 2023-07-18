@@ -45,7 +45,7 @@ def number_route(n):
 
 
 @app.route('/number_template/<int:n>', strict_slashes=False)
-def html_number_route(n):
+def number_template(n):
     '''routes to html page'''
     if isinstance(n, int):
         return render_template('5-number.html', number=n)
